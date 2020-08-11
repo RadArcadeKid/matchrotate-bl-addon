@@ -143,7 +143,7 @@ Note that in this case I checked `Include Active Object` since I wanted my activ
 --
 
 ## **Known Limitations**
-- This is addon is limited to only working with Object Mode orientations/rotations. Note that if you have already applied rotation in Object Mode to all your objects in different orientations (`ctrl` + `A`; Apply Rotation) then this may cause this addon not to work as intended. Meshes which are rotated odd in edit more
+- This is addon is limited to only working with Object Mode orientations/rotations. Note that if you have already applied rotation in Object Mode to all your objects in different orientations (`ctrl` + `A`; Apply Rotation) then this may cause this addon not to work as intended. Meshes which are rotated odd in Edit mode will likely not rotate as intended. 
 
 - It may not work well with animation rigs/posed characters, or particle systems. It is primarily designed for rotating a large amount of objects + meshes. 
   
