@@ -68,8 +68,7 @@ For those who have never installed a third party addon, or are still new, here's
 3. You can now close the Preferences window and enjoy! 
 
 # **Usage** 
-*What does Match Rotate do?* Exactly what it sounds like - matches rotation! Specifically, it is used in the 3D viewport to match the rotation of all selected objects to active object's orientation, matching it. You choose whether this occurs to X, Y, and Z axes. There are several other features which we can use. While this guide is a tad long, the actual addon is super simple and easy to use. 
-
+*What does Match Rotate do?* Exactly what it sounds like - matches rotation! Specifically, it is used in the 3D viewport to match the rotation of all selected objects to active object's orientation. You choose whether this occurs on the X, Y, and/or Z axis. There are also a couple other parameters to use, including random rotation. While this guide is a tad wordy, the actual addon is super simple and easy to use. Please consult the FAQ if you're having any trouble. 
 
 
 To start, I've created Blender scene with several objects rotated at different directions, like so:
