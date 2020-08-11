@@ -96,7 +96,7 @@ From here, there are *two* ways to activate. **With the objects still selected**
 ![F3 Search Menu](./resources/guide4.png)
 
 
-*Voilà!* The selected objects will have matched the active object's rotation!
+*Voilà!* The selected objects will match the active object's rotation!
 
 
 ![All objects match the rotation of the active!](./resources/guide5.png)
