@@ -161,4 +161,5 @@ Got a bug to report? Feature suggestion? Do let me know by contacting me through
 
 
 # **Changelog**
+- 8/12/2020 - Fixed critical install issue 
 - 8/11/2020 - **(v1.0)** First initial commit, version 1.0 made public 
