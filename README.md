@@ -83,8 +83,8 @@ Select multiple objects, and select the object you want to match the rotation of
 
 - If you are new to Blender, to select multiple objects, you can: 
   - Hold `shift` and right-click the objects you want. The last one you click will be the active one
-  - Press `C` to open up the circle selection tool and drag your mouse across the object (You may have to `shift` + right click to select the active object if it doesn't show up)
-  - Select an entire collection by right clicking it in the scene menu and left-click `Select Objects` (Again, you may have to `shift` + right click to select the active object if it doesn't show up)
+  - Press `C` to open up the circle selection tool and drag your mouse across the object (You may have to `shift` + click to select the active object if it doesn't show up)
+  - Select an entire collection by right clicking it in the scene menu and left-click `Select Objects` (Again, you may have to `shift` + click to select the active object if it doesn't show up)
 
 ![Example scene](./resources/guide2.png)
 
@@ -96,7 +96,7 @@ From here, there are *two* ways to activate. **With the objects still selected**
 ![F3 Search Menu](./resources/guide4.png)
 
 
-*Voilà!* The selected objects will have matched the active object's rotation!
+*Voilà!* The selected objects will match the active object's rotation!
 
 
 ![All objects match the rotation of the active!](./resources/guide5.png)
@@ -126,16 +126,19 @@ Note that in this case I checked `Include Active Object` since I wanted my activ
 - **A:**  First, double check you're in Object Mode. This addon *only* works in object mode. If you are still not seeing it, try searching using `F3`. Make sure you have the addon installed correctly 
   
 **Q: My objects aren't rotating correctly in my scene!**
-- **A:** Check that your objects' orientation and rotation is/are set how you want when editing. If an object's mesh is sideways/rotated odd in Edit Mode, but it's rotation is set to `(0,0,0)` in Object Mode, it will be rotated with respect to the Object Mode's rotation. To fix this, in Edit Mode, select all and rotate your mesh how you want. 
+- **A:** Check that your objects' orientation and rotation is/are set how you want when editing. If an object's mesh is sideways/rotated odd in Edit Mode, but it's rotation is set to `(0,0,0)` in Object Mode, it will be rotated with respect to the Object Mode's rotation. To fix this: in Edit Mode, select all and rotate your mesh how you want. 
 
-  - Also, double check that the `Random Variance` is set to 0. By default, it's set to 0, but if changed, it will stay that way. Also make sure that all of the `Match Axis X`, `Y`, and `Z` are checked. 
+  - Also, double check that the `Random Variance` is set to 0. By default it's set to 0, but if changed it will stay that way. Also make sure that all of the `Match Axis X`, `Y`, and `Z` are checked. 
 
 **Q: I used an array modifier to make several objects, now I can't rotate them with this addon!**
-- **A:** Array modifiers bind copies of objects to the objects themselves, and are as such treated as a single object in Object mode. Because this addon is designed to rotate multiple objects, it doesn't work correctly. However, [there are ways of separating array objects](https://blender.stackexchange.com/questions/109/how-can-i-use-an-array-modifier-to-create-individually-manipulatable-objects)
+- **A:** Array modifiers bind copies of objects to the objects themselves, and are as such treated as a single object in Object mode. Because of this, this addon is not compatible with array modifiers, as it is designed to rotate multiple objects. However, [there are ways of separating array objects](https://blender.stackexchange.com/questions/109/how-can-i-use-an-array-modifier-to-create-individually-manipulatable-objects)
   
 **Q: Will Match Rotate ever be in the Community Releases?**
-- **A:** Maybe. I still need a lot of feedback and testing, and I am currently looking into getting it there there. I'm a very busy college student so I don't have loads of free time to actively keep it up to date with each new Blender versions, though. I'm hoping to work on it and test it as often as I can though, and refine it more in the future.  
+- **A:** Probably not. I still need a lot of feedback and testing, and honestly this addon isn't something that's super necessary. I'm a very busy college student so I don't have loads of free time to actively keep it up to date with each new Blender versions, though. I'm hoping to work on it and test it as often as I can though, and refine it more in the future.  
 
+**Q: Why not just use 'align to transform'?**
+
+- **A:** You could, but you get less control over the rotation. This addon also simplifies that process. Also, you can't do any kind of variance or randomness on rotation in the same way using that method. 
 
 **Q: Can I edit/change/build-on this addon?**
 - **A:** Go for it! Yes! As stated by the GPL license, you may add on, expand upon, edit, transform this to your liking. I have zero commercial or financial interest in this add-on it is merely designed for fun and productivity. This Add-on is and always will be free and open-source. Although I respectfully ask that you do not sell this exact code for profit and/or claim it as your own.
@@ -143,7 +146,7 @@ Note that in this case I checked `Include Active Object` since I wanted my activ
 --
 
 ## **Known Limitations**
-- This is addon is limited to only working with Object Mode orientations/rotations. Note that if you have already applied rotation in Object Mode to all your objects in different orientations (`ctrl` + `A`; Apply Rotation) then this may cause this addon not to work as intended. Meshes which are rotated odd in edit more
+- This is addon is limited to only working with Object Mode orientations/rotations. Note that if you have already applied rotation in Object Mode to all your objects in different orientations (`ctrl` + `A`; Apply Rotation) then this may cause this addon not to work as intended. 
 
 - It may not work well with animation rigs/posed characters, or particle systems. It is primarily designed for rotating a large amount of objects + meshes. 
   
