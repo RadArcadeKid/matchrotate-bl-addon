@@ -1,5 +1,7 @@
 # **Blender Add-on - Match Rotate! (v1.0)**
 
+*Quick Update - Fixed critical install issue. Those of you that tried to install before this, please re-download the zipped folder and try again* 
+
 
 Match Rotate is a free add-on for Blender that makes your workflow a little easier. With this simple addon, you'll be able to rotate any number of selected objects to the exact orientation of the active (last selected) object in the 3D Viewport. 
 
