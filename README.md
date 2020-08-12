@@ -134,8 +134,11 @@ Note that in this case I checked `Include Active Object` since I wanted my activ
 - **A:** Array modifiers bind copies of objects to the objects themselves, and are as such treated as a single object in Object mode. Because this addon is designed to rotate multiple objects, it doesn't work correctly. However, [there are ways of separating array objects](https://blender.stackexchange.com/questions/109/how-can-i-use-an-array-modifier-to-create-individually-manipulatable-objects)
   
 **Q: Will Match Rotate ever be in the Community Releases?**
-- **A:** Maybe. I still need a lot of feedback and testing, and I am currently looking into getting it there there. I'm a very busy college student so I don't have loads of free time to actively keep it up to date with each new Blender versions, though. I'm hoping to work on it and test it as often as I can though, and refine it more in the future.  
+- **A:** Probably not. I still need a lot of feedback and testing, and honestly this addon isn't something that's super necessary. I'm a very busy college student so I don't have loads of free time to actively keep it up to date with each new Blender versions, though. I'm hoping to work on it and test it as often as I can though, and refine it more in the future.  
 
+**Q: Why not just use 'align to transform'?**
+
+- **A:** You could, but you get less control over the rotation. This addon also simplifies that process. Also, you can't do any kind of variance or randomness on rotation in the same way using that method. 
 
 **Q: Can I edit/change/build-on this addon?**
 - **A:** Go for it! Yes! As stated by the GPL license, you may add on, expand upon, edit, transform this to your liking. I have zero commercial or financial interest in this add-on it is merely designed for fun and productivity. This Add-on is and always will be free and open-source. Although I respectfully ask that you do not sell this exact code for profit and/or claim it as your own.
