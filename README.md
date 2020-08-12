@@ -83,8 +83,8 @@ Select multiple objects, and select the object you want to match the rotation of
 
 - If you are new to Blender, to select multiple objects, you can: 
   - Hold `shift` and right-click the objects you want. The last one you click will be the active one
-  - Press `C` to open up the circle selection tool and drag your mouse across the object (You may have to `shift` + right click to select the active object if it doesn't show up)
-  - Select an entire collection by right clicking it in the scene menu and left-click `Select Objects` (Again, you may have to `shift` + right click to select the active object if it doesn't show up)
+  - Press `C` to open up the circle selection tool and drag your mouse across the object (You may have to `shift` + click to select the active object if it doesn't show up)
+  - Select an entire collection by right clicking it in the scene menu and left-click `Select Objects` (Again, you may have to `shift` + click to select the active object if it doesn't show up)
 
 ![Example scene](./resources/guide2.png)
 
