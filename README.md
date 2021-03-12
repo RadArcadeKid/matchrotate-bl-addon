@@ -1,8 +1,5 @@
 # **Blender Add-on - Match Rotate! (v1.0)**
 
-- *Quick Update - Fixed critical install issue. Those of you that tried to install before 8/12/2020 12:20, please re-download the zipped folder and try again* 
-
-
 Match Rotate is a free add-on for Blender that makes your workflow a little easier. With this simple addon, you'll be able to rotate any number of selected objects to the exact orientation of the active (last selected) object in the 3D Viewport. 
 
 You can also do this along a chosen axis, as well as randomly rotate all selected objects, regardless of scale or position. This is useful for anyone looking to improve their workflow, or simply wanting a little bit more control over objects in scenes. 
@@ -70,14 +67,14 @@ For those who have never installed a third party addon, or are still new, here's
 3. You can now close the Preferences window and enjoy! 
 
 # **Usage** 
-*What does Match Rotate do?* Exactly what it sounds like - matches rotation! Specifically, it is used in the 3D viewport to match the rotation of all selected objects to active object's orientation. You choose whether this occurs on the X, Y, and/or Z axis. There are also a couple other parameters to use, including random rotation. While this guide is a tad wordy, the actual addon is super simple and easy to use. Please consult the FAQ if you're having any trouble. 
+*What does Match Rotate do?* Exactly what it sounds like - matches rotation! Specifically, it is used in the 3D viewport to match the rotation of all selected objects to active object's orientation. You choose whether this occurs on the X, Y, and/or Z axis. There are also a couple other parameters to play with, including random rotation. While this guide is a tad wordy, the actual addon is super simple and easy to use. Please consult the FAQ if you're having any trouble!
 
 
 To start, I've created Blender scene with several objects rotated at different directions, like so:
 ![Example scene](./resources/guide1.png)
 
 
-To start, make sure you are in **Object Mode** 
+To start, make sure you are in **Object Mode** - this addon only works in Object Mode. 
 
 Select multiple objects, and select the object you want to match the rotation of **last** (the active object).
 
@@ -104,7 +101,7 @@ From here, there are *two* ways to activate. **With the objects still selected**
 ![All objects match the rotation of the active!](./resources/guide5.png)
 
 
-This is the primary feature of the addon, however, you have some features you can play with if you'd like to get more specific. If you open up the Match Rotate window in the bottom-left of the viewport, you will notice several parameters: 
+This is the primary feature of the addon, however, you have some features you can play with if you'd like to get more specific. If you open up the Match Rotate window in the bottom-left of the viewport, you should see several parameters: 
 
  ![Match Rotate menu](./resources/guide6.png)
 
@@ -140,15 +137,15 @@ Note that in this case I checked `Include Active Object` since I wanted my activ
 
 **Q: Why not just use 'align to transform'?**
 
-- **A:** You could, but you get less control over the rotation. This addon also simplifies that process. Also, you can't do any kind of variance or randomness on rotation in the same way using that method. 
+- **A:** You could, but you actually get less control over the rotation. This addon also simplifies that process. Also, you can't do any kind of variance or randomness on rotation in the same way with that method. 
 
 **Q: Can I edit/change/build-on this addon?**
-- **A:** Go for it! Yes! As stated by the GPL license, you may add on, expand upon, edit, transform this to your liking. I have zero commercial or financial interest in this add-on it is merely designed for fun and productivity. This Add-on is and always will be free and open-source. Although I respectfully ask that you do not sell this exact code for profit and/or claim it as your own.
+- **A:** Go for it! Yes! As stated by the GPL license, you may add on, expand upon, edit, transform this to your liking. I have zero commercial or financial interest in this add-on - it is merely designed for fun and productivity. This Add-on is and always will be free and open-source. Although, I respectfully ask that you do not sell this exact code for profit and/or claim it as your own.
   
 --
 
 ## **Known Limitations**
-- This is addon is limited to only working with Object Mode orientations/rotations. Note that if you have already applied rotation in Object Mode to all your objects in different orientations (`ctrl` + `A`; Apply Rotation) then this may cause this addon not to work as intended. 
+- This addon is limited to only working with Object Mode orientations/rotations. Note that if you have already applied rotation in Object Mode to all your objects in different orientations (`ctrl` + `A`; Apply Rotation) it may cause this addon not to work as intended. 
 
 - It may not work well with animation rigs/posed characters, or particle systems. It is primarily designed for rotating a large amount of objects + meshes. 
   
